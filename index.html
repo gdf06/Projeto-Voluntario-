@@ -25,7 +25,38 @@
             <option>Doação de Alimentos</option>
             <option>Doação de Roupas</option>
             <options>Outros</options>
-            
+            </select>
+      <input type="text" id="titulo" placeholder="Título da Necessidade" required>
+      <textarea id="descricao" placeholder="Descrição Detalhada" required></textarea>
+      <input type="text" id="cep" placeholder="CEP" required>
+      <input type="text" id="endereco" placeholder="Endereço" required>
+      <input type="email" id="contato" placeholder="E-mail ou Telefone" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Necessidades Cadastradas</h2>
+    <input type="text" id="pesquisa" placeholder="Pesquisar por título...">
+    <select id="filtroTipoAjuda">
+      <option value="">Todos os Tipos</option>
+      <option>Educação</option>
+      <option>Saúde</option>
+      <option>Meio Ambiente</option>
+      <option>Doação de Alimentos</option>
+      <option>Doação de Roupas</option>
+      <option>Outros</option>
+    </select>
+    <div class="necessidades" id="listaNecessidades"></div>
+  </section>
+
+  <footer>
+    <p>Projeto para prova | Desenvolvido com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
             
 
         
